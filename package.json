@@ -1,0 +1,35 @@
+{
+  "name": "@darshandmg/qa-util-package",
+  "version": "1.0.0",
+  "description": "This package is created to demonstrate packaging utilities in Node.js.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darshanreddy4/dmg_util_package.git"
+  },
+  "type": "module",
+  "main": "lib/index.cjs",
+  "exports": {
+    "import": {
+      "default": "./lib/index.esm.js",
+      "types": "./lib/types/index.d.ts"
+    },
+    "require": {
+      "default": "./lib/index.cjs",
+      "types": "./lib/types/index.d.ts"
+    }
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "darshandmg",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^4.55.1",
+    "rollup-plugin-delete": "^3.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.9.3"
+  }
+}
