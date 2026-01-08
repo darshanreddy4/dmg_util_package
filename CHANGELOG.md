@@ -1,5 +1,11 @@
 # @darshandmg/qa-util-package
 
+## 1.5.0
+
+### Minor Changes
+
+- b947c15: added npm token
+
 ## 1.4.0
 
 ### Minor Changes
