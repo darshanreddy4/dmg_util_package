@@ -1,3 +1,3 @@
 export { formatDate } from './dateformate';
 export { stringManipulation } from './stringmanupulation';
-export { excelOperation } from './exceloperation'
+export { excelOperation, excelOperations } from './exceloperation'
