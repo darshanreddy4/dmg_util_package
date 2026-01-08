@@ -36,4 +36,4 @@ jobs:
         with:
           publish: npm run release-package
         env:
-          GITHUB_TOKEN: ${{ secrets.GIT_CHANGESET_FINEGRAINED_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GIT_CHANGESET_TOKEN }}
