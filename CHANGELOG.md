@@ -1,5 +1,11 @@
 # @darshandmg/qa-util-package
 
+## 1.3.0
+
+### Minor Changes
+
+- d88b135: removed unwanteds
+
 ## 1.2.0
 
 ### Minor Changes
