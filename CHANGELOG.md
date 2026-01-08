@@ -1,5 +1,11 @@
 # @darshandmg/qa-util-package
 
+## 1.4.0
+
+### Minor Changes
+
+- 42f5d22: adding token
+
 ## 1.3.0
 
 ### Minor Changes
